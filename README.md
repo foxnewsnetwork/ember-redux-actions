@@ -1,5 +1,7 @@
 # ember-redux-actions
 
+[![CircleCI](https://circleci.com/gh/foxnewsnetwork/ember-redux-actions.svg?style=svg)](https://circleci.com/gh/foxnewsnetwork/ember-redux-actions)
+
 Ember-cli friendly version of redux-actions from https://github.com/acdlite/redux-actions for use with ember-redux in adhering to the so-called "Flux Standard Action" compliance
 
 ## Usage
