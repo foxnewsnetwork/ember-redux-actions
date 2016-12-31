@@ -1,6 +1,11 @@
 # ember-redux-actions
 
-This README outlines the details of collaborating on this Ember addon.
+Ember-cli friendly version of redux-actions from https://github.com/acdlite/redux-actions for use with ember-redux in adhering to the so-called "Flux Standard Action" compliance
+
+## Usage
+```javascript
+import { createAction, createActions, handleAction, handleActions } from 'redux-actions';
+```
 
 ## Installation
 
