@@ -1,17 +1,20 @@
 {
   "name": "ember-redux-actions",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ember-cli shim for redux-actions for FSA compliant actions in ember-redux",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "flux",
+    "standard",
+    "FSA"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Thomas Chen",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/foxnewsnetwork/ember-redux-actions",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
