@@ -9,6 +9,10 @@ Ember-cli friendly version of redux-actions from https://github.com/acdlite/redu
 import { createAction, createActions, handleAction, handleActions } from 'redux-actions';
 ```
 
+## FAQs
+Q: Why doesn't this work for me?
+A: The most likely reason is that you're on a version of `ember-cli` below `2.10.x`, but anonymous AMD package support isn't supported until `2.10.x`. I suggest you upgrade your ember-cli 
+
 ## Installation
 
 * `git clone <repository-url>` this repository
