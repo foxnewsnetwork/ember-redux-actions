@@ -1,6 +1,6 @@
 {
   "name": "ember-redux-actions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ember-cli shim for redux-actions for FSA compliant actions in ember-redux",
   "keywords": [
     "ember-addon",
