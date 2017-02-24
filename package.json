@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
-    "ember-cli-node-modules-to-vendor": "0.1.1",
+    "ember-cli-node-assets": "0.1.6",
     "redux-actions": "^1.2.0"
   },
   "devDependencies": {
