@@ -7,11 +7,16 @@ module.exports = {
   options: {
     nodeAssets: {
       'redux-actions': {
-        import: [{
-          path: 'dist/redux-actions.js',
-          using: [{ transformation: 'amd', as: 'redux-actions' }]
-        }]
+        vendor: ['dist/redux-actions.js']
       }
     }
+  },
+
+  included() {
+    this._super.included.apply(this, arguments);
+
+    this.import('vendor/redux-actions/dist/redux-actions.js', {
+      using: [{ transformation: 'amd', as: 'redux-actions' }]
+    });
   }
 };
